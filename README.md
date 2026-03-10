@@ -8,15 +8,17 @@
 
 This project explores the use of **unsupervised machine learning** in generating playlists automatically by identifying similarities between songs using their audio features. The case study focuses on **Moosic**, a startup that curates music playlists created by human experts, each designed to capture a specific **mood or musical style**. 
 
-As the company grows, manually creating playlists is becoming difficult to scale. Using a dataset of songs collected from the Spotify API, we apply **unsupervised learning techniques** to group songs into clusters that can serve as prototype playlists.
+As the company grows, manually creating playlists is becoming difficult to scale. Using a dataset of songs collected from the Spotify API, I apply **unsupervised learning techniques** to group songs into clusters that can serve as prototype playlists.
 
 The goal is not to perfectly replace human curators, but to evaluate how machine learning can **support playlist creation and improve scalability**.
+
+[View the project presentation](presentation.pdf)
 
 ---
 
 ## Project Goals
 
-Our prototype model allows us to explore the following questions:
+The model allows us to explore the following questions:
 
 - Can Spotify’s audio features capture **human-perceived similarity between songs**?
 - Can clustering algorithms create **cohesive playlists**?
@@ -62,7 +64,7 @@ The model uses the following techniques:
 
 ## Dataset
 
-The dataset contains several thousand songs collected from the **Spotify API**, including audio features such as:
+The dataset contains 5171 unique songs collected from the **Spotify API**, including audio features such as:
 
 - tempo
 - danceability
@@ -120,12 +122,13 @@ The clustering algorithm grouped 5171 songs into 91 clusters that represent pote
 
 <img width="984" height="724" alt="playlist7" src="https://github.com/user-attachments/assets/bfffc21f-3e5c-41f1-8e98-ae058210a49a" />
 
-However, the results also highlight some limitations:
 
 **Strengths**
 - Scalable playlist creation
 - Ability to detect patterns across large datasets
 - Potential to discover unexpected song connections
+
+However, the results also highlight some limitations:
 
 **Limitations**
 - Audio features may not fully capture subjective aspects such as mood or cultural context
