@@ -1,5 +1,4 @@
-# Automated Playlist Generation with Unsupervised
-Machine Learning
+# Automated Playlist Generation with Unsupervised Machine Learning
 
 **Python | pandas | scikit-learn | Jupyter Notebook**
 
