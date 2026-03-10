@@ -120,12 +120,13 @@ The clustering algorithm grouped 5171 songs into 91 clusters that represent pote
 
 <img width="984" height="724" alt="playlist7" src="https://github.com/user-attachments/assets/bfffc21f-3e5c-41f1-8e98-ae058210a49a" />
 
-However, the results also highlight some limitations:
 
 **Strengths**
 - Scalable playlist creation
 - Ability to detect patterns across large datasets
 - Potential to discover unexpected song connections
+
+However, the results also highlight some limitations:
 
 **Limitations**
 - Audio features may not fully capture subjective aspects such as mood or cultural context
