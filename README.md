@@ -112,7 +112,7 @@ project.ipynb
 
 ## Results
 
-The clustering algorithm grouped songs into several clusters that represent potential **playlists**. Initial evaluation suggests that some clusters successfully group songs with similar musical characteristics. For example:
+The clustering algorithm grouped 5171 songs into 91 clusters that represent potential **playlists**. Initial evaluation suggests that some clusters successfully group songs with similar musical characteristics. For example:
 
 <img width="998" height="739" alt="playlist51" src="https://github.com/user-attachments/assets/cdaf3bec-d1a5-4457-b455-e4f40e4c4c06" />
 
