@@ -105,7 +105,7 @@ pip install -r requirements.txt
 Then open the notebook:
 
 ```
-jupyter notebook
+project.ipynb
 ```
 
 ---
