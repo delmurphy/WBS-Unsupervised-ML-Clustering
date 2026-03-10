@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-This project explores whether **machine learning** can assist in generating playlists automatically by identifying similarities between songs using their audio features. The case study focuses on **Moosic**, a startup that curates music playlists created by human experts, each designed to capture a specific **mood or musical style**. 
+This project explores the use of **unsupervised machine learning** in generating playlists automatically by identifying similarities between songs using their audio features. The case study focuses on **Moosic**, a startup that curates music playlists created by human experts, each designed to capture a specific **mood or musical style**. 
 
 As the company grows, manually creating playlists is becoming difficult to scale. Using a dataset of songs collected from the Spotify API, we apply **unsupervised learning techniques** to group songs into clusters that can serve as prototype playlists.
 
@@ -100,7 +100,13 @@ jupyter notebook
 
 ## Results
 
-The clustering algorithm grouped songs into several clusters that represent potential **playlists**. Initial evaluation suggests that some clusters successfully group songs with similar musical characteristics.
+The clustering algorithm grouped songs into several clusters that represent potential **playlists**. Initial evaluation suggests that some clusters successfully group songs with similar musical characteristics. For example:
+
+<img width="998" height="739" alt="playlist51" src="https://github.com/user-attachments/assets/cdaf3bec-d1a5-4457-b455-e4f40e4c4c06" />
+
+<img width="986" height="721" alt="playlist34" src="https://github.com/user-attachments/assets/9927a788-9ea6-4a7e-821c-86d8bf2aa7b4" />
+
+<img width="984" height="724" alt="playlist7" src="https://github.com/user-attachments/assets/bfffc21f-3e5c-41f1-8e98-ae058210a49a" />
 
 However, the results also highlight some limitations:
 
