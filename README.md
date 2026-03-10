@@ -8,7 +8,7 @@
 
 This project explores the use of **unsupervised machine learning** in generating playlists automatically by identifying similarities between songs using their audio features. The case study focuses on **Moosic**, a startup that curates music playlists created by human experts, each designed to capture a specific **mood or musical style**. 
 
-As the company grows, manually creating playlists is becoming difficult to scale. Using a dataset of songs collected from the Spotify API, we apply **unsupervised learning techniques** to group songs into clusters that can serve as prototype playlists.
+As the company grows, manually creating playlists is becoming difficult to scale. Using a dataset of songs collected from the Spotify API, I apply **unsupervised learning techniques** to group songs into clusters that can serve as prototype playlists.
 
 The goal is not to perfectly replace human curators, but to evaluate how machine learning can **support playlist creation and improve scalability**.
 
@@ -16,7 +16,7 @@ The goal is not to perfectly replace human curators, but to evaluate how machine
 
 ## Project Goals
 
-Our prototype model allows us to explore the following questions:
+The model allows us to explore the following questions:
 
 - Can Spotify’s audio features capture **human-perceived similarity between songs**?
 - Can clustering algorithms create **cohesive playlists**?
@@ -62,7 +62,7 @@ The model uses the following techniques:
 
 ## Dataset
 
-The dataset contains several thousand songs collected from the **Spotify API**, including audio features such as:
+The dataset contains 5171 unique songs collected from the **Spotify API**, including audio features such as:
 
 - tempo
 - danceability
