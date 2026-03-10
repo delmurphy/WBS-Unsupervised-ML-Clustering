@@ -25,9 +25,21 @@ Our prototype model allows us to explore the following questions:
 
 ---
 
+## Tools & Libraries
+
+- Python
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- seaborn
+- Jupyter Notebook
+
+---
+
 ## Methods
 
-The prototype uses the following techniques:
+The model uses the following techniques:
 
 **Data preprocessing**
 - Cleaning and selecting relevant audio features
@@ -37,10 +49,10 @@ The prototype uses the following techniques:
 - Principal Component Analysis (PCA) to simplify feature space
 
 **Clustering**
-- K-Means clustering was used to group songs into playlists.
+- K-Means clustering to group songs into playlists.
 - Multiple values for the number of clusters (K) were explored to evaluate how playlist size and cohesion changed.
-- Different random initializations were tested to ensure cluster stability.
-- The model used multiple initializations (`n_init=50`) to reduce the impact of random starting points.
+- Different random initialisations were tested to explore how the choice of starting points affected clustering results and silhouette scores.
+- The model used multiple initialisations (`n_init=50`) to reduce the impact of random starting points.
 
 **Evaluation**
 - Inertia and Silhouette scores to evaluate cluster separation
@@ -140,20 +152,5 @@ Future improvements could include:
 - Adding **natural language processing on lyrics**
 - Developing a hybrid system combining **machine learning and human curation**
 
----
 
-## Tools & Libraries
 
-- Python
-- pandas
-- numpy
-- scikit-learn
-- matplotlib
-- seaborn
-- Jupyter Notebook
-
----
-
-## Author
-
-Data Science project exploring unsupervised learning for music recommendation and playlist generation.
