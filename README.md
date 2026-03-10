@@ -12,6 +12,8 @@ As the company grows, manually creating playlists is becoming difficult to scale
 
 The goal is not to perfectly replace human curators, but to evaluate how machine learning can **support playlist creation and improve scalability**.
 
+[View the project presentation](presentation.pdf)
+
 ---
 
 ## Project Goals
