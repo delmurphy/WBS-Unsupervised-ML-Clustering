@@ -1,6 +1,6 @@
 # Automated Playlist Generation with Unsupervised Machine Learning
 
-**Python | pandas | scikit-learn | Jupyter Notebook**
+**Python | pandas | scikit-learn | PCA | K-Means Clustering**
 
 ---
 
